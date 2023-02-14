@@ -13,7 +13,7 @@ namespace PayrollSystem
         private string _lastName;
         private long _sinNumber;
 
-        Employee(string firstName, string lastName, long sinNumber) 
+        public Employee(string firstName, string lastName, long sinNumber) 
         {
             _firstName= firstName;
             _lastName= lastName;
